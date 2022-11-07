@@ -127,15 +127,6 @@ export default function RecipeReviewCard(props: VacationCardProps): JSX.Element 
         return d.toLocaleString();
     }
 
-    //function eransam(): string {
-        //if(isFollow)
-        //return "red";
-        //else
-      //  return "black"
-    //}
-
-   // erer:string = eransam();
-
 
     
   const classes = useStyles();
@@ -173,11 +164,7 @@ export default function RecipeReviewCard(props: VacationCardProps): JSX.Element 
             notify.error(err);
         }
     }
-                // <div>
-            //  <button onClick={() => followVacation()}>followVacation</button>
-             // <br/>
-            //  <button onClick={() => unFollowVacation()}>unFollowVacation</button>
-        //  </div>
+
   return (
 
     <div className="BoxCard">
@@ -197,14 +184,12 @@ export default function RecipeReviewCard(props: VacationCardProps): JSX.Element 
         </Typography>
 
         <Typography variant="body2" color="textSecondary" component="p">
-        Description: {formatDateTime(props.vacation.Description)}
+        Description: {props.vacation.Description}
         </Typography>
 
 
         <Typography variant="body2" color="textSecondary" component="p">
         CreationDate: {formatDateTime(props.vacation.CreationDate)}
-     
-        
         </Typography>
 
         <Typography variant="body2" color="textSecondary" component="p">

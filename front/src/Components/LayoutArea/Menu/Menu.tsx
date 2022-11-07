@@ -24,9 +24,8 @@ function Menu(): JSX.Element {
         
         
         <p className="borderBottum"><b>תפריט </b></p>
-        <NavLink to="/vacation/new">הוספת חופשה</NavLink>
-        <NavLink to="/VacationList">רשימת חופשות</NavLink>
-        <NavLink to="/home">דף הבית</NavLink>
+        <NavLink to="/vacation/new">הוספת מוצר</NavLink>
+        <NavLink to="/VacationList">רשימת מוצרים</NavLink>
 
               
      

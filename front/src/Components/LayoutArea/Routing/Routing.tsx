@@ -34,7 +34,7 @@ function Routing(): JSX.Element {
     return (
     <Routes>
 
-        <Route path="/home" element={<Home />} /> 
+        <Route path="/home" element={<VacationList />} /> 
         <Route path="/about" element={<About />} /> 
         <Route path="/storyseccses" element={<StorySeccses />} /> 
         <Route path="/productsVacation" element={<ProductsShose />} /> 
